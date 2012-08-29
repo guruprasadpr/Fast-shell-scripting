@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-#Author: Guru
+#AUTHOR: Guru
 
 file=`echo $1 | sed 's/\(.*\)\.\(.*\)/\1/'`
 ext=`echo $1 | sed 's/.*\.\(.*\)/\1/'`
