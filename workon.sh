@@ -1,5 +1,7 @@
 #!/usr/bin/bash
 
+#Author: Guru
+
 file=`echo $1 | sed 's/\(.*\)\.\(.*\)/\1/'`
 ext=`echo $1 | sed 's/.*\.\(.*\)/\1/'`
 if [ ! -f $1 ]; then
