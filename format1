@@ -1,1 +1,0 @@
-awk -v a="pre" 'BEGIN{getline x <a;}/^\$/{print x;f=1;}/^$/{if (f==1){print "</pre>";f=0;}else{print "<br/><br/>"}}1' $1
